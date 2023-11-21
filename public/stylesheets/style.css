@@ -6,6 +6,7 @@
 body {
   background-color: gray;
   font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
 }
 .container {
   background-color: white;
@@ -151,4 +152,11 @@ hr {
   padding: 11px 5px;
   background-color: rgb(241, 236, 236);
   border-radius: 20px;
+}
+
+.error{
+  font-weight: 500;
+  color: #df0812;
+  text-transform: capitalize;
+  margin: 7px 0;
 }
